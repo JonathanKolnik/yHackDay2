@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Cell.h"
 
 @interface ExpandedViewController : UIViewController
-
+@property (strong, nonatomic) Cell *currentCell;
 @end
