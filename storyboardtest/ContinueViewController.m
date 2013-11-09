@@ -1,21 +1,19 @@
 //
-//  StartViewController.m
+//  ContinueViewController.m
 //  storyboardtest
 //
-//  Created by Jonathan Kolnik on 11/9/13.
+//  Created by Elvin Cako on 11/9/13.
 //  Copyright (c) 2013 bestteamever. All rights reserved.
 //
 
-#import "StartViewController.h"
+#import "ContinueViewController.h"
 
-@interface StartViewController ()
-
-
-@property (strong, nonatomic) IBOutlet UIButton *startGame;
+@interface ContinueViewController()
+@property (strong, nonatomic) IBOutlet UIButton *continueGame;
 
 @end
 
-@implementation StartViewController
+@implementation ContinueViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,20 +28,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
 }
-- (void)viewDidAppear:(BOOL)animated{
-   
-}
-- (IBAction)newGame:(id)sender{
-    
-}
-
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)continueGame:(id)sender {
 }
 
 @end
