@@ -10,6 +10,7 @@
 #import "Photo.h"
 #import "Player.h"
 #import <Parse/Parse.h>
+
 @interface Cell : NSObject
 
 @property(nonatomic) NSString *topic;
