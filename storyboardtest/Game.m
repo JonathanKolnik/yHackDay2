@@ -34,6 +34,8 @@
 //Game Constructor
 -(id) initWithType: (int) type{
     
+    _gameType =type;
+    
     //add 9 cells to the game
     if(self = [super init]) {
         Cell * c;
@@ -43,8 +45,9 @@
             [_cells[i] addObject: c];
         }
     
+        
         //initialize the cells based on the type of game
-        if (_gameType ==1) {
+        if (_gameType == 1) {
             
             [_cells[0] updateTopic: @"Public Transportation"];
             [_cells[1] updateTopic: @"Classroom"];
@@ -58,7 +61,7 @@
         
         }
         
-        if (_gameType ==2) {
+        if (_gameType == 2) {
             
             [_cells[0] updateTopic: @"Quintessential Programmer"];
             [_cells[1] updateTopic: @"Best Room Set Up"];

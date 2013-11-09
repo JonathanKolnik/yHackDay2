@@ -33,6 +33,7 @@
 		5B357106182E9050007351F2 /* ExpandedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B357105182E9050007351F2 /* ExpandedViewController.m */; };
 		5BFA60A5182E961500C64094 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA60A4182E961500C64094 /* StartViewController.m */; };
 		5BFA60A8182E974600C64094 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA60A7182E974600C64094 /* SelectViewController.m */; };
+		D175AC23182E9B9E00A825CB /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D175AC22182E9B9E00A825CB /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		5BFA60A4182E961500C64094 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		5BFA60A6182E974600C64094 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
 		5BFA60A7182E974600C64094 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		D175AC21182E9B6600A825CB /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		D175AC22182E9B9E00A825CB /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				5B3570FC182E8EA6007351F2 /* GameViewController.m */,
 				5B3570E5182E827B007351F2 /* BoardViewController.h */,
 				5B3570E6182E827B007351F2 /* CellViewController.m */,
+				D175AC21182E9B6600A825CB /* EditViewController.h */,
+				D175AC22182E9B9E00A825CB /* EditViewController.m */,
 				5B3570E7182E827B007351F2 /* Cell.h */,
 				5B3570E8182E827B007351F2 /* Cell.m */,
 				5B3570E9182E827B007351F2 /* Photo.h */,
@@ -315,6 +320,7 @@
 				5BFA60A5182E961500C64094 /* StartViewController.m in Sources */,
 				5B3570F6182E827B007351F2 /* Comment.m in Sources */,
 				5B3570FD182E8EA6007351F2 /* GameViewController.m in Sources */,
+				D175AC23182E9B9E00A825CB /* EditViewController.m in Sources */,
 				5B3570C6182E822E007351F2 /* ViewController.m in Sources */,
 				5B3570C0182E822E007351F2 /* AppDelegate.m in Sources */,
 				5B3570F9182E827B007351F2 /* Photo.m in Sources */,
