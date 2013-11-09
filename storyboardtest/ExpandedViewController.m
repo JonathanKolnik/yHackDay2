@@ -10,7 +10,9 @@
 
 @interface ExpandedViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
-@property (weak, nonatomic) IBOutlet UIButton *photoCell;
+//@property (weak, nonatomic) IBOutlet UIButton *photoCell;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *photoCells;
+
 
 @end
 
@@ -66,7 +68,7 @@
         
         
         UIImage *small = [UIImage imageWithCGImage:image.CGImage scale:1 orientation:image.imageOrientation];
-        [_photoCell setBackgroundImage:image forState:UIControlStateNormal];
+        [[_photoCells objectAtIndex:0]setBackgroundImage:image forState:UIControlStateNormal];
         //
         //        // Upload image
         //        NSData *imageData = UIImageJPEGRepresentation(small, 0.05f);

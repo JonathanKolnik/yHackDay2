@@ -7,6 +7,10 @@
 //
 
 #import "SelectViewController.h"
+#import "Cell.h"
+#import "Player.h"
+#import "Game.h"
+#import "Photo.h"
 
 @interface SelectViewController ()
 
@@ -30,14 +34,14 @@
 }
 
 - (IBAction)generateButton:(id)sender{
+    Game *currentGame = [[Game alloc] initWithType: @1];
     
 }
 - (IBAction)yHackButton:(id)sender{
+    Game *currentGame = [[Game alloc] initWithType:@2];
     
 }
-- (IBAction)createOwnButton:(id)sender{
-    
-}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
