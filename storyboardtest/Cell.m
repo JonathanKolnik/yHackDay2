@@ -12,14 +12,14 @@
 
 @implementation Cell
 
-- (void)save{
-    PFObject *cell = [PFObject objectWithClassName:@"Cell"];
-    cell[@"topic"] = self.topic;
-    cell[@"cellPhotos"] = self.cellPhotos;
-    cell[@"numUpload"] = @(self.numUpload);
-//    
-//    cell[@]
-}
+//- (void)save{
+//    PFObject *cell = [PFObject objectWithClassName:@"Cell"];
+//    cell[@"topic"] = self.topic;
+//    cell[@"cellPhotos"] = self.cellPhotos;
+//    cell[@"numUpload"] = @(self.numUpload);
+////    
+////    cell[@]
+//}
 
 -(void) updateTopic: (NSString *) newTopic
 {

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Photo.h"
 #import "Player.h"
-#import <Parse/Parse.h>
+//#import <Parse/Parse.h>
 
 @interface Cell : NSObject
 
