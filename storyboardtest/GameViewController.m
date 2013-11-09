@@ -7,6 +7,7 @@
 //
 
 #import "GameViewController.h"
+#import "ExpandedViewController.h"
 
 @interface GameViewController ()
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *boardButtonsCollection;
@@ -22,6 +23,13 @@
         // Custom initialization
     }
     return self;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"showDetailSegue"]){
+        ExpandedViewController *controller = (ExpandedViewController *)segue.destinationViewController;
+        controller.currentCell = [[Cell alloc]init];
+    }
 }
 
 - (void)viewDidLoad

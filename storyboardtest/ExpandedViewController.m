@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
 //@property (weak, nonatomic) IBOutlet UIButton *photoCell;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *photoCells;
-@property (strong, nonatomic) Cell *currentCell;
+
 
 @end
 
