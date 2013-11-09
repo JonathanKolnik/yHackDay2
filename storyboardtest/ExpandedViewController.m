@@ -7,12 +7,13 @@
 //
 
 #import "ExpandedViewController.h"
+#import "Cell.h"
 
 @interface ExpandedViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
 //@property (weak, nonatomic) IBOutlet UIButton *photoCell;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *photoCells;
-
+@property (strong, nonatomic) Cell *currentCell;
 
 @end
 
@@ -25,6 +26,12 @@
         // Custom initialization
     }
     return self;
+}
+
+- (Cell *)currentCell
+{
+    if (_currentCell) _currentCell = [[Cell alloc] init];
+    return _currentCell;
 }
 
 - (void)viewDidLoad
@@ -68,7 +75,10 @@
         
         
         UIImage *small = [UIImage imageWithCGImage:image.CGImage scale:1 orientation:image.imageOrientation];
-        [[_photoCells objectAtIndex:0]setBackgroundImage:image forState:UIControlStateNormal];
+        [[_photoCells objectAtIndex:_currentCell.numUpload]setBackgroundImage:image forState:UIControlStateNormal];
+        if (_currentCell.numUpload < 3){
+            _currentCell.numUpload++;
+        }
         //
         //        // Upload image
         //        NSData *imageData = UIImageJPEGRepresentation(small, 0.05f);
