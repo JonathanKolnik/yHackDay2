@@ -31,6 +31,8 @@
 		5B3570FA182E827B007351F2 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3570F2182E827B007351F2 /* Player.m */; };
 		5B3570FD182E8EA6007351F2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3570FC182E8EA6007351F2 /* GameViewController.m */; };
 		5B357106182E9050007351F2 /* ExpandedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B357105182E9050007351F2 /* ExpandedViewController.m */; };
+		5BFA60A5182E961500C64094 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA60A4182E961500C64094 /* StartViewController.m */; };
+		5BFA60A8182E974600C64094 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA60A7182E974600C64094 /* SelectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,10 @@
 		5B3570FC182E8EA6007351F2 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		5B357104182E9050007351F2 /* ExpandedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandedViewController.h; sourceTree = "<group>"; };
 		5B357105182E9050007351F2 /* ExpandedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandedViewController.m; sourceTree = "<group>"; };
+		5BFA60A3182E961500C64094 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		5BFA60A4182E961500C64094 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		5BFA60A6182E974600C64094 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		5BFA60A7182E974600C64094 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,10 @@
 				5B3570BE182E822E007351F2 /* AppDelegate.h */,
 				5B3570BF182E822E007351F2 /* AppDelegate.m */,
 				5B3570C1182E822E007351F2 /* Main.storyboard */,
+				5BFA60A3182E961500C64094 /* StartViewController.h */,
+				5BFA60A4182E961500C64094 /* StartViewController.m */,
+				5BFA60A6182E974600C64094 /* SelectViewController.h */,
+				5BFA60A7182E974600C64094 /* SelectViewController.m */,
 				5B3570E4182E827B007351F2 /* BoardViewController.m */,
 				5B3570FB182E8EA6007351F2 /* GameViewController.h */,
 				5B3570FC182E8EA6007351F2 /* GameViewController.m */,
@@ -301,6 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFA60A8182E974600C64094 /* SelectViewController.m in Sources */,
+				5BFA60A5182E961500C64094 /* StartViewController.m in Sources */,
 				5B3570F6182E827B007351F2 /* Comment.m in Sources */,
 				5B3570FD182E8EA6007351F2 /* GameViewController.m in Sources */,
 				5B3570C6182E822E007351F2 /* ViewController.m in Sources */,
@@ -527,6 +539,7 @@
 				5B3570E0182E822E007351F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B3570E1182E822E007351F2 /* Build configuration list for PBXNativeTarget "storyboardtestTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +548,7 @@
 				5B3570E3182E822E007351F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
