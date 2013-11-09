@@ -332,12 +332,82 @@
                                     <action selector="closeText:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="gja-W6-4zw"/>
                                 </connections>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-iT-Ki8">
+                                <rect key="frame" x="144" y="210" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText3:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="HoF-mw-AzH"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sFi-Fi-xr1">
+                                <rect key="frame" x="144" y="263" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText4:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="XSn-xJ-OMX"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MmD-Hl-I2F">
+                                <rect key="frame" x="144" y="308" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText5:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="AUQ-PL-T05"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9HF-ZI-ZHF">
+                                <rect key="frame" x="144" y="357" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText6:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="Y98-nf-klP"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-zT-NGL">
+                                <rect key="frame" x="144" y="412" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText7:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="guT-y1-IWq"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W8D-v9-vf4">
+                                <rect key="frame" x="144" y="463" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText8:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="gH9-QS-Geo"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LZ3-GO-Ki7">
+                                <rect key="frame" x="144" y="155" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="closeText2:" destination="RFn-2B-N3Q" eventType="editingDidEndOnExit" id="fhW-cx-MK6"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="FaA-Kp-jzt"/>
                     <connections>
                         <outlet property="text1" destination="Hhm-mT-wp8" id="0gz-P7-ajR"/>
+                        <outlet property="text2" destination="LZ3-GO-Ki7" id="HbP-ed-yzq"/>
+                        <outlet property="text3" destination="4aC-iT-Ki8" id="nzs-RB-Vnb"/>
+                        <outlet property="text4" destination="sFi-Fi-xr1" id="wCx-Ze-ke6"/>
+                        <outlet property="text5" destination="MmD-Hl-I2F" id="CA8-Gr-yIv"/>
+                        <outlet property="text6" destination="9HF-ZI-ZHF" id="Kof-Ok-b9R"/>
+                        <outlet property="text7" destination="CQv-zT-NGL" id="91e-3z-300"/>
+                        <outlet property="text8" destination="W8D-v9-vf4" id="rwM-PG-s06"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HCO-yF-HP4" userLabel="First Responder" sceneMemberID="firstResponder"/>

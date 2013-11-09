@@ -15,8 +15,22 @@
 @interface EditViewController(){
     
     IBOutlet UITextField *text1;
+    IBOutlet UITextField *text2;
+    IBOutlet UITextField *text3;
+    IBOutlet UITextField *text4;
+    IBOutlet UITextField *text5;
+    IBOutlet UITextField *text6;
+    IBOutlet UITextField *text7;
+    IBOutlet UITextField *text8;
 }
 - (IBAction)closeText:(id)sender;
+- (IBAction)closeText2:(id)sender;
+- (IBAction)closeText3:(id)sender;
+- (IBAction)closeText4:(id)sender;
+- (IBAction)closeText5:(id)sender;
+- (IBAction)closeText6:(id)sender;
+- (IBAction)closeText7:(id)sender;
+- (IBAction)closeText8:(id)sender;
 
 @end
 
@@ -60,15 +74,15 @@
             //initialize the cells
 
                 
-        [currentGame.cells[0] updateTopic: text1];
-                [currentGame.cells[1] updateTopic: @"Classroom"];
-                [currentGame.cells[2] updateTopic: @"Food"];
-                [currentGame.cells[3] updateTopic: @"Outfits"];
+                [currentGame.cells[0] updateTopic: text1];
+                [currentGame.cells[1] updateTopic: text2];
+                [currentGame.cells[2] updateTopic: text3];
+                [currentGame.cells[3] updateTopic: text4];
                 [currentGame.cells[4] updateTopic: @"Wild Card"];
-                [currentGame.cells[5] updateTopic: @"Nature"];
-                [currentGame.cells[6] updateTopic: @"Gimme That!"];
-                [currentGame.cells[7] updateTopic: @"No Thank You!"];
-                [currentGame.cells[8] updateTopic: @"My Day in a Nutshell"];
+                [currentGame.cells[5] updateTopic: text5];
+                [currentGame.cells[6] updateTopic: text6];
+                [currentGame.cells[7] updateTopic: text7];
+                [currentGame.cells[8] updateTopic: text8];
 
             }
 
@@ -84,4 +98,36 @@
 - (IBAction)closeText:(id)sender {
     [text1 resignFirstResponder];
 }
+
+- (IBAction)closeText2:(id)sender {
+    [text3 resignFirstResponder];
+}
+
+
+- (IBAction)closeText3:(id)sender {
+    [text3 resignFirstResponder];
+}
+
+- (IBAction)closeText4:(id)sender {
+    [text4 resignFirstResponder];
+}
+
+- (IBAction)closeText5:(id)sender {
+    [text5 resignFirstResponder];
+}
+
+- (IBAction)closeText6:(id)sender {
+    [text6 resignFirstResponder];
+}
+
+- (IBAction)closeText7:(id)sender {
+    [text7 resignFirstResponder];
+}
+
+- (IBAction)closeText8:(id)sender {
+    [text8 resignFirstResponder];
+}
+
+
+
 @end
