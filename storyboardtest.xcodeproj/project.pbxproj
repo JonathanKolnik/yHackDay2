@@ -33,16 +33,7 @@
 		5B357106182E9050007351F2 /* ExpandedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B357105182E9050007351F2 /* ExpandedViewController.m */; };
 		5BFA60A5182E961500C64094 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA60A4182E961500C64094 /* StartViewController.m */; };
 		5BFA60A8182E974600C64094 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA60A7182E974600C64094 /* SelectViewController.m */; };
-		5BFA60AA182E99E100C64094 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60A9182E99E100C64094 /* Parse.framework */; };
-		5BFA60AC182E9A4100C64094 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60AB182E9A4100C64094 /* AudioToolbox.framework */; };
-		5BFA60AE182E9A8E00C64094 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60AD182E9A8E00C64094 /* CFNetwork.framework */; };
-		5BFA60B0182E9AA500C64094 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60AF182E9AA500C64094 /* CoreLocation.framework */; };
-		5BFA60B2182E9AAA00C64094 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60B1182E9AAA00C64094 /* libz.1.1.3.dylib */; };
-		5BFA60B4182E9AB100C64094 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60B3182E9AB100C64094 /* MobileCoreServices.framework */; };
-		5BFA60B6182E9AB600C64094 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60B5182E9AB600C64094 /* QuartzCore.framework */; };
-		5BFA60B8182E9ABB00C64094 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60B7182E9ABB00C64094 /* Security.framework */; };
-		5BFA60BA182E9ABF00C64094 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60B9182E9ABF00C64094 /* StoreKit.framework */; };
-		5BFA60BC182E9AC400C64094 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA60BB182E9AC400C64094 /* SystemConfiguration.framework */; };
+		D175AC23182E9B9E00A825CB /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D175AC22182E9B9E00A825CB /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,16 +89,8 @@
 		5BFA60A4182E961500C64094 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		5BFA60A6182E974600C64094 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
 		5BFA60A7182E974600C64094 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
-		5BFA60A9182E99E100C64094 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		5BFA60AB182E9A4100C64094 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		5BFA60AD182E9A8E00C64094 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		5BFA60AF182E9AA500C64094 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		5BFA60B1182E9AAA00C64094 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
-		5BFA60B3182E9AB100C64094 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		5BFA60B5182E9AB600C64094 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		5BFA60B7182E9ABB00C64094 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		5BFA60B9182E9ABF00C64094 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		5BFA60BB182E9AC400C64094 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D175AC21182E9B6600A825CB /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		D175AC22182E9B9E00A825CB /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +182,8 @@
 				5B3570FC182E8EA6007351F2 /* GameViewController.m */,
 				5B3570E5182E827B007351F2 /* BoardViewController.h */,
 				5B3570E6182E827B007351F2 /* CellViewController.m */,
+				D175AC21182E9B6600A825CB /* EditViewController.h */,
+				D175AC22182E9B9E00A825CB /* EditViewController.m */,
 				5B3570E7182E827B007351F2 /* Cell.h */,
 				5B3570E8182E827B007351F2 /* Cell.m */,
 				5B3570E9182E827B007351F2 /* Photo.h */,
@@ -355,6 +340,7 @@
 				5BFA60A5182E961500C64094 /* StartViewController.m in Sources */,
 				5B3570F6182E827B007351F2 /* Comment.m in Sources */,
 				5B3570FD182E8EA6007351F2 /* GameViewController.m in Sources */,
+				D175AC23182E9B9E00A825CB /* EditViewController.m in Sources */,
 				5B3570C6182E822E007351F2 /* ViewController.m in Sources */,
 				5B3570C0182E822E007351F2 /* AppDelegate.m in Sources */,
 				5B3570F9182E827B007351F2 /* Photo.m in Sources */,

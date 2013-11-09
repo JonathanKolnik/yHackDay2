@@ -1,22 +1,22 @@
 //
-//  SelectViewController.m
+//  EditViewController.m
 //  storyboardtest
 //
-//  Created by Jonathan Kolnik on 11/9/13.
+//  Created by Annie DuBois on 11/9/13.
 //  Copyright (c) 2013 bestteamever. All rights reserved.
 //
 
-#import "SelectViewController.h"
+#import "EditViewController.h"
 #import "Cell.h"
 #import "Player.h"
 #import "Game.h"
 #import "Photo.h"
 
-@interface SelectViewController ()
+@interface EditViewController()
 
 @end
 
-@implementation SelectViewController
+@implementation EditViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,12 +33,10 @@
 	// Do any additional setup after loading the view.
 }
 
-- (IBAction)generateButton:(id)sender{
-    Game *currentGame = [[Game alloc] initWithType: @1];
-    
-}
-- (IBAction)yHackButton:(id)sender{
-    Game *currentGame = [[Game alloc] initWithType:@2];
+
+- (IBAction)DoneEditingButton:(id)sender{
+//Change the topic of the current cell to whatever the user inputs. call Cell.updateTopic()
+    Game *currentGame;
     
 }
 
@@ -47,5 +45,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

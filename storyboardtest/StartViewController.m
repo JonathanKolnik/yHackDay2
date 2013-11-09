@@ -10,6 +10,9 @@
 
 @interface StartViewController ()
 
+
+@property (strong, nonatomic) IBOutlet UIButton *startGame;
+
 @end
 
 @implementation StartViewController
